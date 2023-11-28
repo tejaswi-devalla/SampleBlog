@@ -1,0 +1,32 @@
+Algorithmic Problem:
+
+def is_palindrome(string):
+
+    new_string = ''
+    for char in string:
+      if char.isalnum():
+        new_string += char
+    #print(new_string)
+    return new_string == new_string[::-1]
+
+string = input()
+result = is_palindrome(string)
+print(result) 
+
+Difference between SQL and NoSQL databases:
+
+SQL (Structured Query Language) Databases: Use tables with predefined columns. Good for complex stuff like finances, best for transactions. Examples: mySQL, postgreSQL , etc.
+NoSQL Databases:Don't need a fixed structure, good for flexible data. Good for big data and less-structured info. Examples: MongoDB, etc.
+
+CORS (Cross-Origin Resource Sharing):
+
+Definition: CORS is like a security thing that stops websites from talking to each other too much i.e., stops one domain from making requests to another domain.
+How it works: When a web application makes a cross-origin HTTP request the browser sends an HTTP request to the target domain with an origin header indicating the origin of the requesting page.
+The server at the target domain can include specific HTTP headers in its response to indicate whether it allows the request.
+Handling CORS issues: Configure the server to include appropriate CORS headers.
+
+Coding Best Practices:
+
+Meaningful Variable Names: Use names that make sense. Don't just use letters. If it's counting something, maybe call it count instead of c.
+Modular and Readable Code: Break your big problems into smaller ones. Make your code so someone new can read it and not get too confused.
+Error Handling: Try to catch mistakes before they break everything.
