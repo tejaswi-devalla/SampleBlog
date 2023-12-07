@@ -8,7 +8,7 @@
 
 Database:
 
-sqlite3 abc.db ".read sample.sql"
+sqlite3 blog.db ".read sample.sql"
 
 # Frontend
 
